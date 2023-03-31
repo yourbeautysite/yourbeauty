@@ -1,0 +1,16 @@
+.preto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    width: 950px;
+    height: 30px;
+    margin-right: 80px;
+    border-radius: 30px;
+
+}
+.icone{
+    margin-left: 120px;
+}
+.icone:hover{}
