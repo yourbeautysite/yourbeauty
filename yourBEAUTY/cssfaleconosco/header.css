@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    width: 100%;
+    height: 170px;
+    margin: 0%;
+}
+main{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.dourado{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../imagens/dourado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+.preto{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+body{
+    margin: 0;
+    background-color: black;
+    /*overflow-y: hidden;*/
+    width: 100%;
+    height: 90vh;
+    
+}
