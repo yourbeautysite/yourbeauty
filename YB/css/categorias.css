@@ -1,0 +1,58 @@
+body{
+    background-image: url(../imagens/imgfundo.png);
+    background-color: black;
+}
+
+.imagens {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10%;
+    
+}
+.imagensAlinhamento{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+
+}
+.categorias__titulo {
+    color: goldenrod;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    margin-left: 48px;
+    font-family: 'Rubik',sans-serif;
+    font-size: 28px;
+}
+.categorias__link {
+    text-decoration: none;
+    color: white;
+}
+#imagens {
+    border-radius: 18px;
+}
+.papi {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#produtos{
+    font-family: 'Rubik',sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+#cabelos{
+    font-family: 'Rubik',sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+#maquiagem{
+    font-family: 'Rubik',sans-serif;
+    text-align: center;
+    font-size: 20px;
+}

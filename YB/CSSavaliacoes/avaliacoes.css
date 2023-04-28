@@ -1,0 +1,15 @@
+@import "header.css";
+@import "linkhome.css";
+@import "linkprodutos.css";
+@import "linkquem.css";
+@import "linkfale.css";
+@import "imagemproduto.css";
+@import "banner.css";
+@import "perfil.css";
+@import "produtos.css";
+@import "footer.css";
+
+@font-face {
+    font-family: 'Hello Morgan';
+    src: url(../Fontes/HelloMorgan.ttf)
+}
