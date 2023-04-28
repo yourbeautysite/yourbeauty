@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="imagens/ybicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
                 </div>
 
                 <div class="linkavaliacoes">
-                    <a href="avaliacoes.html"><img src="./imagens/estrela.png" width="50px" height="50px"></a>
+                    <a href="minhasavaliacoes.html"><img src="./imagens/estrela.png" width="50px" height="50px"></a>
                 </div>
             <div class="quemsomos"> 
                 <div class="linkquemsomos">
@@ -32,11 +33,11 @@
         </section>
         <section class="preto"> 
             <div class="icone">
-                <a href="perfil.html"><img src="./imagens/iconeperfil.png" height="40px" width="40px"></a>
+                <a href="meuperfil.html"><img src="./imagens/iconeperfil.png" height="40px" width="40px"></a>
             </div>
             <div class="barradepesquisa">
                 <form method="post" action="enviar.ts">
-                  <input class="barra" type="text">
+                  <input class="barra" type="text" placeholder="Pesquisar...">
                 </form>
             </div>
         </section>
@@ -45,27 +46,27 @@
     <main>
         <section class="info">
         <div class="fundo">
-            <p class="pmorgan">Fale Conosco</p>
+            <h2 class="pmorgan">Fale Conosco</h2>
         </div>
         </section><br><br>
         <section class="formulario">
 
             <form class="primo" method="post" action="./formulario.php">
                 
-                <label class="center" for="title">Entre em contato!</label>
+                <label class="center" for="title">Entre em contato conosco!</label>
                 <label for="name">Nome:</label>
                 <input class="name" type="text" id="name" name="txtName" required>
             
                 <label for="email">E-mail:</label>
                 <input class="email" type="email" id="email" email="txtEmail" required>
-                <label for="message">Mande sua sugestão!</label>
-                <input class="message" type="message" id="message" message="txtMessage" required></textarea>
+                <label for="message">Mande sua sugestão:</label>
+                <input class="message" type="message" id="message" message="txtMessage" required placeholder="Digite aqui..." ></textarea>
             
                 <div class="botaosubmit"> <div class="botaosubmit2"><input class="enviar" type="submit" value="Enviar"></div></div>
             </form>
             </section>
             <div class="local">
-                <h2> Osasco-SP, Brazil</h2>
+                <h2> Osasco-SP, Brasil</h2>
             </div>
         
     </main><br><br><br>

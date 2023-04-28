@@ -1,13 +1,15 @@
 .preto{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .barra{
     width: 950px;
     height: 30px;
     margin-right: 80px;
     border-radius: 30px;
+    font-size: 15px;
+    padding-left: 8px;
 
 }
 .icone{

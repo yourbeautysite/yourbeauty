@@ -9,8 +9,14 @@
     box-shadow: 0 2px 5px black;
     padding: 20px;
     width: 400px;
+    height: 456px;
     margin: 0% auto;
-    text-align: center;}
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
     
 label{
     display: block;
@@ -43,13 +49,16 @@ label{
 .message{
 
     width: 90% !important;
-    height: 50px;
+    height: 68px;
     padding: 10px;
     border-radius: 5px;
     border: none;
     margin-bottom: 20px;
     font-size: 16px;
     text-align: center;
+    font-size: 15px;
+    padding-left: 8px;
+
 }
 
 .enviar{
