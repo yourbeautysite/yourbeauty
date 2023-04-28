@@ -1,0 +1,9 @@
+@import "header.css";
+@import "footer.css";
+@import "banner.css";
+
+
+@font-face {
+    font-family: 'Hello Morgan';
+    src: url(../Fontes/HelloMorgan.ttf)
+}

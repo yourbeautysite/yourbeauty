@@ -1,0 +1,18 @@
+.banner {
+    font-family: 'Hello Morgan', sans-serif;
+    color: goldenrod;
+    font-size:55px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner h2 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    gap:48px;
+    justify-content: center;
+}
+
