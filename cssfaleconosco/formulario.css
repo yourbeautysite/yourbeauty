@@ -33,7 +33,7 @@ label{
     font-family: 'Rubik', sans-serif;
 }
 
-.name[type="text"], .email[type="email"], textarea{
+.name[type="text"], .email[type="email"], textarea{ 
     width: 90%;
     padding: 10px;
     border-radius: 5px;
