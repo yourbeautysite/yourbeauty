@@ -1,0 +1,29 @@
+.preto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.barra{
+    width: 950px;
+    height: 30px;
+    margin-right: 80px;
+    border-radius: 30px;
+    font-size: 15px;
+    padding-left: 8px;
+
+}
+.icone{
+    margin-left: 140px;
+}
+.icone:hover{}
+
+.telefone{
+    color: black;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.usuario{
+    color: black;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
