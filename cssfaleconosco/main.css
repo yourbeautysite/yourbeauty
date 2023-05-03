@@ -18,18 +18,20 @@
     margin-left: 30px;
 }
 @font-face {
-    font-family: hellomorgan;
-    src: url("../fontes/hellomorgan/HelloMorgan.ttf");
+    font-family: 'Hello Morgan';  
+    src: url(../Fontes/HelloMorgan.ttf)
 }
 .pmorgan{
-    font-family: hellomorgan;
-    color: goldenrod;
-    width: 900px;
+    font-family: 'Hello Morgan'; 
+    font-family: 'Hello Morgan'; 
+    color: goldenrod; /*mudei  */         
+    width: 900px; 
     height: 200px;
     font-size: 85px;
+    text-align: center; 
     }
     
-footer{
+footer{ 
     background-image: url(../imagens/dourado.png);
     background-repeat: no-repeat;
     background-size: cover;
